@@ -45,7 +45,7 @@ TODO
 - Consider removing. Canonical sources refer to dual duct *terminals* not AHUs. 
 
 ## Embedded_Surface_System_Panel
-- Consider renaming `Embedded_Surface_[Heating_And_Cooling]_System` per [ISO 11855](https://www.iso.org/obp/ui#iso:std:iso:11855:-1:ed-2:v1:en:term:3.28).
+- Consider renaming `Embedded_Surface_Heating_And_Cooling_System` per [ISO 11855](https://www.iso.org/obp/ui#iso:std:iso:11855:-1:ed-2:v1:en:term:3.28).
 - Consider updating defintion per above link.
 
 ## Fan_Coil_Unit

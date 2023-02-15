@@ -76,7 +76,7 @@ REGISTER | A grille typically equipped with a damper or control valve.
 - General term for both is apparently [computer and data processing room (CDPR) unitary air conditioner](https://terminology.ashrae.org/?entry=computer%20and%20data%20processing%20room%20(CDPR)%20unitary%20air%20conditioner).
 
 ## Discharge_Fan vs. Supply_Fan
-- `Supply_Fan` per AHRI Standard 920/1 above.
+- `Supply_Fan` per AHRI Standard 430/1 above.
 
 ## Discharge_Air_Plenum vs. Supply_Air_Plenum
 - `Supply_Plenum` to follow Supply_Fan.

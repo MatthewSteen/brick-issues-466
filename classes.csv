@@ -20,14 +20,14 @@ Location,Break_Room,Break_Room,,
 Location,Break_Room,Breakroom,,
 Location,Breakroom,Break_Room,,
 Location,Breakroom,Breakroom,,
-Equipment,CAV,CAV,,
-Equipment,CAV,Constant_Air_Volume_Box,,
+Equipment,CAV,CAV,rename (see notes),
+Equipment,CAV,Constant_Air_Volume_Box,rename (see notes),
 Equipment,Computer_Room_Air_Conditioning,Computer_Room_Air_Conditioning,rename (see notes),https://www.ahrinet.org/sites/default/files/2022-12/AHRI%20Standard%201360-2022%20%28I-P%29.pdf
 Equipment,Computer_Room_Air_Conditioning,CRAC,rename (see notes),https://www.ahrinet.org/sites/default/files/2022-12/AHRI%20Standard%201360-2022%20%28I-P%29.pdf
 Equipment,Computer_Room_Air_Handler,Computer_Room_Air_Handler,Computer_Room_Air_Handler,https://www.ahrinet.org/sites/default/files/2022-12/AHRI%20Standard%201360-2022%20%28I-P%29.pdf
 Equipment,Computer_Room_Air_Handler,CRAH,Computer_Room_Air_Handler,https://www.ahrinet.org/sites/default/files/2022-12/AHRI%20Standard%201360-2022%20%28I-P%29.pdf
-Equipment,Constant_Air_Volume_Box,CAV,,
-Equipment,Constant_Air_Volume_Box,Constant_Air_Volume_Box,,
+Equipment,Constant_Air_Volume_Box,CAV,rename (see notes),
+Equipment,Constant_Air_Volume_Box,Constant_Air_Volume_Box,rename (see notes),
 Point,Cooling_Discharge_Air_Flow_Setpoint,Cooling_Discharge_Air_Flow_Setpoint,,
 Point,Cooling_Discharge_Air_Flow_Setpoint,Cooling_Supply_Air_Flow_Setpoint,,
 Point,Cooling_Discharge_Air_Temperature_Deadband_Setpoint,Cooling_Discharge_Air_Temperature_Deadband_Setpoint,,
@@ -124,8 +124,8 @@ Point,Discharge_Air_Temperature_Step_Parameter,Discharge_Air_Temperature_Step_Pa
 Point,Discharge_Air_Temperature_Step_Parameter,Supply_Air_Temperature_Step_Parameter,,
 Point,Discharge_Air_Velocity_Pressure_Sensor,Discharge_Air_Velocity_Pressure_Sensor,,
 Point,Discharge_Air_Velocity_Pressure_Sensor,Supply_Air_Velocity_Pressure_Sensor,,
-Equipment,Discharge_Fan,Discharge_Fan,Supply_Fan,
-Equipment,Discharge_Fan,Supply_Fan,Supply_Fan,
+Equipment,Discharge_Fan,Discharge_Fan,Supply_Fan,https://www.ahrinet.org/sites/default/files/2022-06/AHRI_Standard_430_I-P_2020.pdf
+Equipment,Discharge_Fan,Supply_Fan,Supply_Fan,https://www.ahrinet.org/sites/default/files/2022-06/AHRI_Standard_430_I-P_2020.pdf
 Equipment,DOAS,Dedicated_Outdoor_Air_System_Unit,Dedicated_Outdoor_Air_System_Unit,https://www.ahrinet.org/sites/default/files/2022-06/AHRI_Standard_920_I-P_2020_add1.pdf
 Equipment,DOAS,DOAS,Dedicated_Outdoor_Air_System_Unit,https://www.ahrinet.org/sites/default/files/2022-06/AHRI_Standard_920_I-P_2020_add1.pdf
 Equipment,Dual_Duct_Air_Handling_Unit,DDAHU,remove (see notes),
@@ -294,14 +294,14 @@ Location,Rest_Room,Rest_Room,,
 Location,Rest_Room,Restroom,,
 Location,Restroom,Rest_Room,,
 Location,Restroom,Restroom,,
-Equipment,Rooftop_Unit,Rooftop_Unit,Air_Handling_Unit,remove (see notes)
-Equipment,Rooftop_Unit,RTU,Air_Handling_Unit,remove (see notes)
-Equipment,RTU,Rooftop_Unit,Air_Handling_Unit,remove (see notes)
-Equipment,RTU,RTU,Air_Handling_Unit,remove (see notes)
+Equipment,Rooftop_Unit,Rooftop_Unit,remove (see notes),
+Equipment,Rooftop_Unit,RTU,remove (see notes),
+Equipment,RTU,Rooftop_Unit,remove (see notes),
+Equipment,RTU,RTU,remove (see notes),
 Point,Run_Time_Sensor,On_Timer_Sensor,,
 Point,Run_Time_Sensor,Run_Time_Sensor,,
-Equipment,RVAV,RVAV,,
-Equipment,RVAV,Variable_Air_Volume_Box_With_Reheat,,
+Equipment,RVAV,RVAV,rename (see notes),
+Equipment,RVAV,Variable_Air_Volume_Box_With_Reheat,rename (see notes),
 Location,Storey,Floor,,
 Location,Storey,Storey,,
 Measurable,Supply_Air,Discharge_Air,Supply_Air,https://terminology.ashrae.org/?entry=supply%20air
@@ -376,8 +376,8 @@ Point,Supply_Air_Temperature_Step_Parameter,Discharge_Air_Temperature_Step_Param
 Point,Supply_Air_Temperature_Step_Parameter,Supply_Air_Temperature_Step_Parameter,,
 Point,Supply_Air_Velocity_Pressure_Sensor,Discharge_Air_Velocity_Pressure_Sensor,,
 Point,Supply_Air_Velocity_Pressure_Sensor,Supply_Air_Velocity_Pressure_Sensor,,
-Equipment,Supply_Fan,Discharge_Fan,Supply_Fan,
-Equipment,Supply_Fan,Supply_Fan,Supply_Fan,
+Equipment,Supply_Fan,Discharge_Fan,Supply_Fan,https://www.ahrinet.org/sites/default/files/2022-06/AHRI_Standard_430_I-P_2020.pdf
+Equipment,Supply_Fan,Supply_Fan,Supply_Fan,https://www.ahrinet.org/sites/default/files/2022-06/AHRI_Standard_430_I-P_2020.pdf
 Equipment,TABS_Panel,TABS_Panel,rename (see notes),
 Equipment,TABS_Panel,Thermally_Activated_Building_System_Panel,rename (see notes),
 Equipment,Thermally_Activated_Building_System_Panel,TABS_Panel,rename (see notes),
@@ -398,13 +398,13 @@ Point,Unoccupied_Supply_Air_Flow_Setpoint,Unoccupied_Discharge_Air_Flow_Setpoint
 Point,Unoccupied_Supply_Air_Flow_Setpoint,Unoccupied_Supply_Air_Flow_Setpoint,,
 Point,Unoccupied_Supply_Air_Temperature_Setpoint,Unoccupied_Discharge_Air_Temperature_Setpoint,,
 Point,Unoccupied_Supply_Air_Temperature_Setpoint,Unoccupied_Supply_Air_Temperature_Setpoint,,
-Equipment,Variable_Air_Volume_Box,Variable_Air_Volume_Box,,
-Equipment,Variable_Air_Volume_Box,VAV,,
-Equipment,Variable_Air_Volume_Box_With_Reheat,RVAV,,
-Equipment,Variable_Air_Volume_Box_With_Reheat,Variable_Air_Volume_Box_With_Reheat,,
+Equipment,Variable_Air_Volume_Box,Variable_Air_Volume_Box,rename (see notes),
+Equipment,Variable_Air_Volume_Box,VAV,rename (see notes),
+Equipment,Variable_Air_Volume_Box_With_Reheat,RVAV,rename (see notes),
+Equipment,Variable_Air_Volume_Box_With_Reheat,Variable_Air_Volume_Box_With_Reheat,rename (see notes),
 Equipment,Variable_Frequency_Drive,Variable_Frequency_Drive,Variable_Frequency_Drive,https://terminology.ashrae.org/?entry=variable-frequency drive (VFD)
-Equipment,Variable_Frequency_Drive,VFD,Variable_Frequency_Drive,
-Equipment,VAV,Variable_Air_Volume_Box,,
-Equipment,VAV,VAV,,
-Equipment,VFD,Variable_Frequency_Drive,Variable_Frequency_Drive,
-Equipment,VFD,VFD,Variable_Frequency_Drive,
+Equipment,Variable_Frequency_Drive,VFD,Variable_Frequency_Drive,https://terminology.ashrae.org/?entry=variable-frequency drive (VFD)
+Equipment,VAV,Variable_Air_Volume_Box,rename (see notes),
+Equipment,VAV,VAV,rename (see notes),
+Equipment,VFD,Variable_Frequency_Drive,Variable_Frequency_Drive,https://terminology.ashrae.org/?entry=variable-frequency drive (VFD)
+Equipment,VFD,VFD,Variable_Frequency_Drive,https://terminology.ashrae.org/?entry=variable-frequency drive (VFD)

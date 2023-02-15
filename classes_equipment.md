@@ -25,7 +25,49 @@ NOTDEFINED | Undefined unitary equipment type.
 - ASHRAE Handbook of HVAC Systems and Equipment uses `Air-Handling`.
 
 ## Box vs. Terminal
-TODO
+Suggest `Terminal_Unit` per below.
+
+### AHRI
+See [AHRI Standard 880/1](https://www.ahrinet.org/sites/default/files/2022-06/AHRI_Standard_880_IP_2017.pdf).
+
+>***Air Terminal.*** A device that modulates the volume of Air delivered to or removed from a defined space in
+response to an external demand.
+
+### ASHRAE 
+
+#### Handbooks
+Index entry for `Terminal units`. 
+
+#### Terminology
+Distinguishes between devices (outlet only) and units (inlet and outlets). 
+
+>[air terminal device](https://terminology.ashrae.org/?entry=air%20terminal%20device)
+any device (e.g., grille, register, diffuser) placed in an opening to a room, through which controlled air enters or leaves. Component of the air-distribution system which has the purpose of achieving the predetermined movement of air into or from a treated space.
+
+>[air terminal unit](https://terminology.ashrae.org/?entry=air%20terminal%20unit)
+(1) an air-distribution assembly consisting of inlet duct connection(s) and outlet duct connection(s) whose purpose fulfills (either manually or automatically) one or more of the following functions: controls the rate of the airflow, controls the velocity or pressure and/or temperature of the air, mixes primary streams of different temperatures or humidities, or mixes within the device primary air with air from the treated space. (2) an air terminal unit may be composed of automatic or manual dampers, filters valves, heating or cooling coils, sound attenuation, nozzles, or fan assemblies. See also diffuser terminal.
+
+### IFC
+IFC uses *terminal box* for active equipment, e.g. VAV with reheat box, and *terminal* for passive equipment, e.g. diffuser. 
+
+**7.5.2.1 IfcAirTerminalBoxTypeEnum**
+Constant | Description
+:- | :-
+CONSTANTFLOW | Terminal box does not include a means to reset the volume automatically to an outside signal such as thermostat.
+VARIABLEFLOWPRESSUREDEPENDANT | Terminal box includes a means to reset the volume automatically to a different control point in response to an outside signal such as thermostat: air-flow rate depends on supply pressure.
+VARIABLEFLOWPRESSUREINDEPENDANT | Terminal box includes a means to reset the volume automatically to a different control point in response to an outside signal such as thermostat: air-flow rate is independant of supply pressure.
+
+An air terminal box typically participates in an HVAC duct distribution system and is used to control or modulate the amount of air delivered to its downstream ductwork. An air terminal box type is often referred to as an "air flow regulator".
+
+An air terminal is a terminating or origination point for the transfer of air between distribution system(s) and one or more spaces. It can also be used for the transfer of air between adjacent spaces.
+
+**7.5.2.2 IfcAirTerminalTypeEnum**
+Constant | Description
+:- | :-
+DIFFUSER | An outlet discharging supply air in various directions and planes.
+GRILLE | A covering for any area through which air passes.
+LOUVRE | A rectilinear louvre.
+REGISTER | A grille typically equipped with a damper or control valve.
 
 ## Computer_Room_Air_Conditioning and Computer_Room_Air_Handler
 - These definitions need clarification. ASHRAE and AHRI distinguish between CRACs and CRAHs by cooling type. See [AHRI Standard 1360/1](https://www.ahrinet.org/sites/default/files/2022-12/AHRI%20Standard%201361-2022%20%28SI%29.pdf).
